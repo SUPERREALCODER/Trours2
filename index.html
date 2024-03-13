@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    TROURS
+  </title>
+  <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <h1>TROURS</h1>
+    <header>
+      
+      <nav class="navigation">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <button class="btnLogin-popup">Log in/Sign up</button>
+      </nav>
+  </header>
+
+  <div class="wrapper">
+      
+<span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+      <div class="form-box login">
+          <h2>Log in</h2>
+          <form action="#">
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                  <input type="email" required>
+                  <label>Email</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+              </div>
+              <div class="remember-forgot">
+                  <label>
+                      <input type="checkbox">Remember me
+                  </label>
+                  <a href="">Forgot Password?</a>
+              </div>
+              <button type="submit" class="btn">Log in</button>
+              <div class="login-register">
+                  <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+              </div>
+          </form>
+      </div>
+
+      <div class="form-box register">
+          <h2>Sign up</h2>
+          <form action="#">
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="person"></ion-icon></span>
+                  <input type="text" required>
+                  <label>User Name</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                  <input type="email" required>
+                  <label>Email</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+              </div>
+              <div class="remember-forgot">
+                  <label>
+                      <input type="checkbox">I agree to the terms & conditions
+                  </label>
+              </div>
+              <button type="submit" class="btn">Sign up</button>
+              <div class="login-register">
+                  <p>Already have an account? <a href="#" class="login-link">Log in</a></p>
+              </div>
+          </form>
+      </div>
+  </div>
+    <div>
+      <img src="./youtube-low-resolution-color-logo.png"/>
+      <h5>Hold and continue</h5>
+      <button>Let's Combine</button>
+    </div>
+    <div id="search">
+        <div class="typing-textarea">
+            <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+          </div>
+    </div>
+
+    <div id="recommend">
+        <button><img src="./cleancode.jpg" />Technology</button>
+        <button><img src="./Death_Note_Vol_1.jpg"/>Manga</button>
+        <button><img src="./dhoni.jpg"/>Sports</button>
+        <button><img src="./atomichabits.png"/>Self Developement</button>
+        <button><img src="./intelligentinvestor.jpg"/>Finance</button>
+        <button><img src="./mansearchformeaning.jpg"/>Psycology</button>
+        <button><img src="./hawkins.jpg"/>Bio and auto bio</button>
+        <button><img src="./powerofpolitics.jpg"/>Geo Politics</button>
+        <button><img src="./odyssey.png"/>Mythology</button>
+        <button><img src="./princessdiarist.jpg"/>Romantic</button>
+        <button><img src="./girlgone.jpg"/>Thriller</button>
+        <button><img src="./apple.jpg"/>Horror</button>
+    </div>
+    <div>
+        <h2>100+1 REASONS TO READ BOOKS</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=GvYjojbFRJzX77X0&amp;list=PL1Tl1gAW_JHRmbfg4HivfUEQNxwqFV7XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div>
+        <h2>RECOMMENDATIONS OF BOOKS BY TED-Ed</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=vkcLk1ZsxpQ3y_8F&amp;list=PLJicmE8fK0EiUroVhuEyeOYkAGAAB58Xx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">Hi. My name is Kibosen san. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="./images/chatbox-icon.svg" /></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+  </html>
